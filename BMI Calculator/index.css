@@ -1,0 +1,116 @@
+.card{ /*card css*/
+    background-color: rgb(236, 222, 248);
+    color: black;
+    padding: 2em 2em 4em;
+    width: 90%;
+    height: 250px;
+    border-radius: 5%;
+}
+
+/* css for result card*/
+.hasil-card {
+    height: 20%;
+    width: 70%;
+    margin-left: 8%;
+}
+
+/*css for text cards*/
+.card-1 {
+    background-color: rgb(205, 215, 243);
+    border-radius: 20px;
+    padding: 1em 1em 1em 2em;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+
+/*body css*/
+body {
+    font-family: Helvetica;
+    margin: 200px;
+    margin-top: 20px;
+    background-image: url("https://cdn.discordapp.com/attachments/966633399257296946/1088497269235536022/bg2.jpg")
+}
+/* css for form */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/*css for gender options*/
+.form-group-jk{
+    padding: 10px 0px;
+}
+
+/*to make the labels bold*/
+label {
+    font-weight: bold;
+}
+
+/*input boxes css*/
+.input-box {
+    width: 90%;
+    border-radius: 6px;
+}
+
+/*css for button reset*/
+.reset {
+    background-color: white;
+    border-radius: 5px;
+    border-style: ridge;
+    border-color: rgb(179, 169, 169);
+    width: 100px;
+    height: 30px;
+    font-size: 100%;
+}
+
+/*css for submit button*/
+.button {
+    background-color: rgb(192, 200, 245);
+    border-radius: 5px;
+    border-style: ridge;
+    border-color: rgb(148, 144, 199);
+    width: 100px;
+    height: 30px;
+    font-size: 100%;
+}
+
+/*flex box css*/
+.flexbox-container {
+    display: flex;
+}
+
+/*inside flexbox*/
+.flexbox-item {
+    width: 100%;
+}
+.flexbox-item-1 {
+    margin-right: 90px;
+}
+/*css for result*/
+#current-bmi {
+    margin-top: 14%;
+    font-size: 500%;
+}
+/*header*/
+h1 {
+    text-align: center;
+    font-size: x-large;
+}
+/*list of illness card*/
+.card-end {
+    height: 14%;
+    padding-top: 2%;
+}
+/*illnesses*/
+.penyakit {
+   text-align: center;
+   font-size:larger;
+}
+.penyakit-list {
+    text-align: center;
+    font-size: larger;
+}
+/*hasil type*/
+#keterangan {
+    text-align: center;
+}
